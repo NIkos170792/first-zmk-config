@@ -42,13 +42,13 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL | F2  | F11  |     | HOME|     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT | F4  | F12 |PSCRN| END |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// | CTRL | F2  | F11  |     | HOME|  VOL+   |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT | F4  | F12 |PSCRN| END |   VOL-  |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | left_ALT |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp F2   &kp F11 &trans   &kp HOME   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &kp F4   &kp F12 &kp PSCRN   &kp END   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
+   &kp LCTRL &kp F2   &kp F11 &trans   &kp HOME   &kp C_VOLUME_UP      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &kp F4   &kp F12 &kp PSCRN   &kp END   &kp C_VOLUME_DOWN      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp LALT
                         >;
                 };
