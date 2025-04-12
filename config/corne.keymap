@@ -68,10 +68,10 @@
 
         macro_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                &trans             &trans                &trans          &trans            &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &sk RC(RA(C_AC_DEL))  &sk RC(RS(DEL))    &kp C_BRIGHTNESS_INC  &kp C_NEXT      &kp K_PLAY_PAUSE  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                &trans             &kp C_BRIGHTNESS_DEC  &kp C_PREVIOUS  &trans            &trans  &trans  &trans
-                        &trans  &trans                &trans             &trans                &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans             &trans                &trans          &trans            &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sk RC(RS(DEL))    &kp C_BRIGHTNESS_INC  &kp C_NEXT      &kp K_PLAY_PAUSE  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans             &kp C_BRIGHTNESS_DEC  &kp C_PREVIOUS  &trans            &trans  &trans  &trans
+                        &trans  &trans  &trans             &trans                &trans          &trans
             >;
         };
     };
